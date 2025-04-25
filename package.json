@@ -1,0 +1,24 @@
+{
+  "name": "dai-tp5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulietaWB/DAI-tp5.git"
+  },
+  "author": "Julieta WB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulietaWB/DAI-tp5/issues"
+  },
+  "homepage": "https://github.com/JulietaWB/DAI-tp5#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
