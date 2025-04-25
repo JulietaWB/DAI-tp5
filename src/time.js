@@ -1,4 +1,4 @@
-function Hora ()
+function Hora()
 {
     const fechaCompleta= new Date();
     const hora=fechaCompleta.getHours();
@@ -8,14 +8,11 @@ function Hora ()
     return `${hora}:${min}:${seg}`;
 }
 
-function Time ()
+function Fecha()
 {
     const fechaCompleta= new Date();
-    const hora=fechaCompleta.getHours();
-    const min=fechaCompleta.getMinutes();
-    const seg=fechaCompleta.getSeconds();
 
-    return `${hora}:${min}:${seg}`;
+    return fechaCompleta;
 }
 
-export default Hora;
+export default {Hora, Fecha};
